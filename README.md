@@ -9,7 +9,7 @@ Thierry Daubos
 
 Here are the differents steps taken by the script to analyze the data:
 
-# PART 1 #
+PART 1 
 1) paths to the relevent folders are initialized
 2) read the features file and rename column "V1" as "feature_names"
 3) reading of the activity_labels file and rename column "V1" as "activity_labels"
@@ -21,16 +21,16 @@ Here are the differents steps taken by the script to analyze the data:
 
 Note: The renaming of the labels of the datasets with desciptive variables is performed prior to the extraction of measurements in order to facilitate the selection of the columns related to the mean() and std(). Therefore parts 4 and 3 are carried out before part 2.
 
-# PART 4 #
+PART 4
 8) the miss-labeled features having "BodyBody" instead of just "Body" in their names are renamed using the sub command
 9) descriptive column names for the complete_X_dataset are assigned using the corrected feature_names vector from step 8)
 10) the column "V1" of the complete_Y_dataset is renamed as "activity"
 11) the column "V1" of complete_subject_dataset is renamed as "subject_id"
 
-# PART 3 #
+PART 3
 12) Replacement of the complete_Y_dataset activity integer values by their explicit names using the activity_labels table
 
-# PART 2 #
+PART 2
 Note: For the selection of the features related to mean() and std(), we look for features having exactly the string "mean()" or "std()" in their names. 
 
 Features like "fBodyAccJerk-meanFreq()-X" do not correspond to the actual mean of some observations. Instead it represents the feature "fBodyAccJerk-X" centered by substracting the meanFreq() to the data. Therefore these features are not selected to appear in the final tidy-data data.frame.
@@ -40,7 +40,7 @@ From the features_info.txt file, there are 8 features having obervations along t
 13) creation of a logical vector to select the features names to be retained using grep function on the features table
 14) creation of the complete_mean_std data.frame containing only the required observations using logical vector from step 13)
 
-# PART 5 #
+PART 5
 15) the complete_Y_dataset of activity labels is added to the complete_mean_std data.frame using cbind
 16) the complete_subject_dataset of subject_id is added to the complete_mean_std data.frame using cbind
 
@@ -59,7 +59,7 @@ Note: As expected, the final dimensions of tidy_data are 180 x 68
 
 21) writing of the tidy_data table in text format, omitting the row numbering
 
-# Automated creation of the feature's CodeBook #
+Automated creation of the feature's CodeBook
 22) each feature name is parsed into a descriptive string of characters using substitutions
 23) the resulting description table is saved as a CodeBook text file
 
