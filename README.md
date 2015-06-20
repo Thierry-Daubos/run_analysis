@@ -10,14 +10,17 @@ Thierry Daubos
 Here are the differents steps taken by the script to analyze the data:
 
 ## PART 1
-1. paths to the relevent folders are initialized
-2. read the features file and rename column "V1" as "feature_names"
-3. reading of the activity_labels file and rename column "V1" as "activity_labels"
-4. reading of the subject_train and subject_test files
-5. reading of the X_train and X_test datasets
-6. readinf of the Y_train and Y_test datasets
-7. the training and test datasets are combined rowwise for the X, Y and subject data.frames using rbind
-   leading to three new concatenated datasets: complete_X_dataset, complete_Y_dataset, complete_subject_dataset
+<ol>
+
+<li> paths to the relevent folders are initialized </li>
+<li> read the features file and rename column "V1" as "feature_names" </li>
+<li> reading of the activity_labels file and rename column "V1" as "activity_labels" </li>
+<li> reading of the subject_train and subject_test files</li>
+<li> reading of the X_train and X_test datasets </li>
+<li> readinf of the Y_train and Y_test datasets </li>
+<li> the training and test datasets are combined rowwise for the X, Y and subject data.frames using rbind </li>
+     leading to three new concatenated datasets: complete_X_dataset, complete_Y_dataset, complete_subject_dataset </li>
+</ol>
 
 Note: The renaming of the labels of the datasets with desciptive variables is performed prior to the extraction of measurements in order to facilitate the selection of the columns related to the mean() and std(). Therefore parts 4 and 3 are carried out before part 2.
 
