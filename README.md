@@ -59,9 +59,11 @@ Creation of the tidy data set of the average of each variable for each activity 
 <li> Loading of the reshape2 library to use the melt and dcast functions </li>
 <li> the column names from the complete_mean_std data.frame are retrieved in the list "names" </li>
 <li> the tidy_data is created by melting the complete_mean_std into a "long" data.frame of just 4 columns: </li>
-    - The first two columns : Activity, Subject_id are used as IDs
-    - The 3rd column holds the 66 features from the complete_mean_std data.frame as measures
-    - The 4th column contains the value measured for a given activity, subject_id and feature
+     <ul>
+     <li> The first two columns : Activity, Subject_id are used as IDs </li>
+     <li> The 3rd column holds the 66 features from the complete_mean_std data.frame as measures </li>
+     <li> The 4th column contains the value measured for a given activity, subject_id and feature </li>
+    </ul>
 <li> The dcast function is used to compute the final tidy_data data.frame by averaging all the values for a given activity,       suject_id and feature </li>
 </ol>
 
