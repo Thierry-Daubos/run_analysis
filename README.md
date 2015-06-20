@@ -23,7 +23,7 @@ Here are the differents steps taken by the script to analyze the data:
 
 ### PART 4
 <ol start="8">
-<li> the miss-labeled features having "BodyBody" instead of just "Body" in their names are renamed using the sub command </li>
+<li> the miss-labeled features having "BodyBody" instead of just "Body" in their names are renamed using sub command </li>
 <li> descriptive column names for the <i>complete_X_dataset</i> are assigned using the corrected feature_names vector from step 8) </li>
 <li> the column "V1" of the <i>complete_Y_dataset</i> is renamed as "activity" </li>
 <li> the column "V1" of <i>complete_subject_dataset</i> is renamed as "subject_id" </li>
