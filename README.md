@@ -10,9 +10,9 @@ Here are the differents steps taken by the script to analyze the data:
 ### PART 1
 <ol>
 <li> paths to the relevent folders are initialized </li>
-<li> read the features file and rename column "V1" as "feature_names" </li>
-<li> reading of the activity_labels file and rename column "V1" as "activity_labels" </li>
-<li> reading of the subject_train and subject_test files</li>
+<li> reading of the <i>features</i> file and rename column "V1" as "feature_names" </li>
+<li> reading of the <i>activity_labels</i> file and rename column "V1" as "activity_labels" </li>
+<li> reading of the <i>subject_train</i> and <i>subject_test</i> files</li>
 <li> reading of the <i>X_train</i> and <i>X_test</i> datasets </li>
 <li> readinf of the <i>Y_train</i> and <i>Y_test</i> datasets </li>
 <li> the training and test datasets are combined rowwise for the X, Y and subject data.frames using rbind </li>
