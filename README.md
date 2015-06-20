@@ -7,7 +7,7 @@ Analysing script for the Human Activity Recognition Using Smartphones Dataset
 
 Here are the differents steps taken by the script to analyze the data:
 
-## PART 1
+### PART 1
 <ol>
 <li> paths to the relevent folders are initialized </li>
 <li> read the features file and rename column "V1" as "feature_names" </li>
@@ -21,19 +21,19 @@ Here are the differents steps taken by the script to analyze the data:
 
 **Note:** The renaming of the labels of the datasets with desciptive variables is performed prior to the extraction of measurements in order to facilitate the selection of the columns related to the mean() and std(). Therefore parts 4 and 3 are carried out before part 2.
 
-## PART 4
+### PART 4
 <ol start="8">
 <li> the miss-labeled features having "BodyBody" instead of just "Body" in their names are renamed using the sub command </li>
 <li> descriptive column names for the complete_X_dataset are assigned using the corrected feature_names vector from step 8) </li>
 <li> the column "V1" of the complete_Y_dataset is renamed as "activity" </li>
 <li> the column "V1" of complete_subject_dataset is renamed as "subject_id" </li>
 </ol>
-## PART 3
+### PART 3
 <ol start="12">
 <li>  Replacement of the complete_Y_dataset activity integer values by their explicit names using the activity_labels table</li>
 </ol>
 
-## PART 2
+### PART 2
 **Note:** For the selection of the features related to mean() and std(), we look for features having exactly the string "mean()" or "std()" in their names. 
 
 Features like "fBodyAccJerk-meanFreq()-X" do not correspond to the actual mean of some observations. Instead it represents the feature "fBodyAccJerk-X" centered by substracting the meanFreq() to the data. Therefore these features are not selected to appear in the final tidy-data data.frame.
@@ -45,7 +45,7 @@ From the features_info.txt file, there are 8 features having obervations along t
 <li> creation of the complete_mean_std data.frame containing only the required observations using logical vector from step 13) </li>
 </ol>
 
-## PART 5
+### PART 5
 <ol start="15">
 <li> the complete_Y_dataset of activity labels is added to the complete_mean_std data.frame using cbind </li>
 <li> the complete_subject_dataset of subject_id is added to the complete_mean_std data.frame using cbind </li>
@@ -73,10 +73,10 @@ Creation of the tidy data set of the average of each variable for each activity 
 <li> writing of the tidy_data table in text format, omitting the row numbering </li>
 </ol>
 
-## Automated creation of the feature's CodeBook
+### Automated creation of the feature's CodeBook
 <ol start="22">
 <li> each feature name is parsed into a descriptive string of characters using substitutions </li>
 <li> the resulting description table is saved as a CodeBook text file </li>
 </ol>
 
-### End of the script
+#### End of the script
