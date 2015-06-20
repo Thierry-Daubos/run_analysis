@@ -1,11 +1,9 @@
 # run_analysis
 Repo for the "Getting and Cleaning Data" module Course Project
 
-===
 Analysing script for the Human Activity Recognition Using Smartphones Dataset
-Version 1.0
+### Version 1.0
 ### Thierry Daubos
-===
 
 Here are the differents steps taken by the script to analyze the data:
 
