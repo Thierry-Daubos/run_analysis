@@ -9,7 +9,6 @@ Here are the differents steps taken by the script to analyze the data:
 
 ## PART 1
 <ol>
-
 <li> paths to the relevent folders are initialized </li>
 <li> read the features file and rename column "V1" as "feature_names" </li>
 <li> reading of the activity_labels file and rename column "V1" as "activity_labels" </li>
@@ -20,7 +19,7 @@ Here are the differents steps taken by the script to analyze the data:
      leading to three new concatenated datasets: complete_X_dataset, complete_Y_dataset, complete_subject_dataset </li>
 </ol>
 
-Note: The renaming of the labels of the datasets with desciptive variables is performed prior to the extraction of measurements in order to facilitate the selection of the columns related to the mean() and std(). Therefore parts 4 and 3 are carried out before part 2.
+*Note:* The renaming of the labels of the datasets with desciptive variables is performed prior to the extraction of measurements in order to facilitate the selection of the columns related to the mean() and std(). Therefore parts 4 and 3 are carried out before part 2.
 
 ## PART 4
 <ol start="8">
@@ -35,7 +34,7 @@ Note: The renaming of the labels of the datasets with desciptive variables is pe
 </ol>
 
 ## PART 2
-Note: For the selection of the features related to mean() and std(), we look for features having exactly the string "mean()" or "std()" in their names. 
+*Note:* For the selection of the features related to mean() and std(), we look for features having exactly the string "mean()" or "std()" in their names. 
 
 Features like "fBodyAccJerk-meanFreq()-X" do not correspond to the actual mean of some observations. Instead it represents the feature "fBodyAccJerk-X" centered by substracting the meanFreq() to the data. Therefore these features are not selected to appear in the final tidy-data data.frame.
 
@@ -65,9 +64,9 @@ Creation of the tidy data set of the average of each variable for each activity 
 <li> The dcast function is used to compute the final tidy_data data.frame by averaging all the values for a given activity,       suject_id and feature </li>
 </ol>
 
-Note: As expected, the final dimensions of tidy_data are 180 x 68
-      68 columns -> 33 features for mean() + 33 features for std() + "activity" + "subject_id"
-      180 rows   -> 30 subjects * 6 different activities
+*Note:* As expected, the final dimensions of tidy_data are 180 x 68
+        68 columns -> 33 features for mean() + 33 features for std() + "activity" + "subject_id"
+        180 rows   -> 30 subjects * 6 different activities
 
 <ol start="21">
 <li> writing of the tidy_data table in text format, omitting the row numbering </li>
