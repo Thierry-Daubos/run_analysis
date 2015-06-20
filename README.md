@@ -15,7 +15,7 @@ Here are the differents steps taken by the script to analyze the data:
 <li> reading of the <i>subject_train</i> and <i>subject_test</i> files</li>
 <li> reading of the <i>X_train</i> and <i>X_test</i> datasets </li>
 <li> readinf of the <i>Y_train</i> and <i>Y_test</i> datasets </li>
-<li> the training and test datasets are combined rowwise for the X, Y and subject data.frames using rbind </li>
+<li> the training and test datasets are combined rowwise for the X, Y and subject data frames using rbind </li>
      leading to three new concatenated datasets: <i>complete_X_dataset</i>, <i>complete_Y_dataset</i>,         <i>complete_subject_dataset</i> </li>
 </ol>
 
@@ -36,7 +36,7 @@ Here are the differents steps taken by the script to analyze the data:
 ### PART 2
 **Note:** For the selection of the features related to mean() and std(), we look for features having exactly the string "mean()" or "std()" in their names. 
 
-Features like "fBodyAccJerk-meanFreq()-X" do not correspond to the actual mean of some observations. Instead it represents the feature "fBodyAccJerk-X" centered by substracting the meanFreq() to the data. Therefore these features are not selected to appear in the final tidy-data data.frame.
+Features like "fBodyAccJerk-meanFreq()-X" do not correspond to the actual mean of some observations. Instead it represents the feature "fBodyAccJerk-X" centered by substracting the meanFreq() to the data. Therefore these features are not selected to appear in the final <i>tidy-data</i> data frame.
 
 From the features_info.txt file, there are 8 features having obervations along the X,Y,Z axes and 9 features having observations on just one dimension. Therefore we expect to find: 8 * 3 + 9 = 33 features containing "mean()" and the same number of features containing "std()" => 66 features in total.
 
@@ -47,21 +47,21 @@ From the features_info.txt file, there are 8 features having obervations along t
 
 ### PART 5
 <ol start="15">
-<li> the <i>complete_Y_dataset</i> of activity labels is added to the <i>complete_mean_std</i> data.frame using cbind </li>
-<li> the <i>complete_subject_dataset</i> of subject_id is added to the <i>complete_mean_std</i> data.frame using cbind </li>
+<li> the <i>complete_Y_dataset</i> of activity labels is added to the <i>complete_mean_std</i> data frame using cbind </li>
+<li> the <i>complete_subject_dataset</i> of subject_id is added to the <i>complete_mean_std</i> data frame using cbind </li>
 </ol>
 
 Creation of the tidy data set of the average of each variable for each activity and each subject:
 <ol start="17">
 <li> Loading of the reshape2 library to use the melt and dcast functions </li>
-<li> the column names from the <i>complete_mean_std</i> data.frame are retrieved in the list "names" </li>
-<li> the <i>tidy_data</i> is created by melting the <i>complete_mean_std</i> into a "long" data.frame of just 4 columns: </li>
+<li> the column names from the <i>complete_mean_std</i> data frame are retrieved in the list "names" </li>
+<li> the <i>tidy_data</i> is created by melting the <i>complete_mean_std</i> into a "long" data frame of just 4 columns: </li>
      <ul>
      <li> The first two columns : Activity, Subject_id are used as IDs </li>
-     <li> The 3rd column holds the 66 features from the <i>complete_mean_std</i> data.frame as measures </li>
+     <li> The 3rd column holds the 66 features from the <i>complete_mean_std</i> data frame as measures </li>
      <li> The 4th column contains the value measured for a given activity, subject_id and feature </li>
     </ul>
-<li> The dcast function is used to compute the final <i>tidy_data</i> data.frame by averaging all the values for a given activity, suject_id and feature </li>
+<li> The dcast function is used to compute the final <i>tidy_data</i> data frame by averaging all the values for a given activity, suject_id and feature </li>
 </ol>
 
 **Note:** As expected, the final dimensions of <i>tidy_data</i> are 180 x 68
