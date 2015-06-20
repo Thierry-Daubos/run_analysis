@@ -74,6 +74,9 @@ Creation of the tidy data set of the average of each variable for each activity 
 </ol>
 
 ### Automated creation of the feature's CodeBook
+
+**Note:** The CodeBook provided in this repo describes the explicit meaning of each feature present in the <i>tidy_data</i>.
+
 <ol start="22">
 <li> each feature name is parsed into a descriptive string of characters using substitutions </li>
 <li> the resulting <i>description</i> table is saved as a CodeBook text file </li>
