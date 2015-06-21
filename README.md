@@ -73,6 +73,8 @@ Creation of the tidy data set of the average of each variable for each activity 
 <li> writing of the <i>tidy_data</i> table in text format, omitting the row numbering </li>
 </ol>
 
+This is the so-called "wide form" of the tidy dataset (as opposed to the "thin form" which would have just 4 columns: activity, subject_id, measure, mean vallues) but is equally acceptable format as state by our Teaching Asistant in this thread of the discussion forum: [Tidy data and the Assignment](https://class.coursera.org/getdata-015/forum/thread?thread_id=27)
+
 ### Automated creation of the feature's CodeBook
 
 **Note:** The CodeBook provided in this repo describes the explicit meaning of each feature present in the <i>tidy_data</i>.
