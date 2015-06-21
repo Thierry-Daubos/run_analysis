@@ -1,68 +1,68 @@
-"tBodyAcc-mean()-X : time domain data of the body component from accelerometer for the mean value along x axis
-"tBodyAcc-mean()-Y  time domain data of the body component from accelerometer for the mean value along y axix"
-"tBodyAcc-mean()-Z  time domain data of the body component from accelerometer for the mean value along z axis"
-"tBodyAcc-std()-X  time domain data of the body component from accelerometer for the standard deviation value along x axis"
-"tBodyAcc-std()-Y  time domain data of the body component from accelerometer for the standard deviation value along y axix"
-"tBodyAcc-std()-Z  time domain data of the body component from accelerometer for the standard deviation value along z axis"
-"tGravityAcc-mean()-X  time domain data of the gravity component from accelerometer for the mean value along x axis"
-"tGravityAcc-mean()-Y  time domain data of the gravity component from accelerometer for the mean value along y axix"
-"tGravityAcc-mean()-Z  time domain data of the gravity component from accelerometer for the mean value along z axis"
-"tGravityAcc-std()-X  time domain data of the gravity component from accelerometer for the standard deviation value along x axis"
-"tGravityAcc-std()-Y  time domain data of the gravity component from accelerometer for the standard deviation value along y axix"
-"tGravityAcc-std()-Z  time domain data of the gravity component from accelerometer for the standard deviation value along z axis"
-"tBodyAccJerk-mean()-X  time domain data of the body component from accelerometer for the jerk signal mean value along x axis"
-"tBodyAccJerk-mean()-Y  time domain data of the body component from accelerometer for the jerk signal mean value along y axix"
-"tBodyAccJerk-mean()-Z  time domain data of the body component from accelerometer for the jerk signal mean value along z axis"
-"tBodyAccJerk-std()-X  time domain data of the body component from accelerometer for the jerk signal standard deviation value along x axis"
-"tBodyAccJerk-std()-Y  time domain data of the body component from accelerometer for the jerk signal standard deviation value along y axix"
-"tBodyAccJerk-std()-Z  time domain data of the body component from accelerometer for the jerk signal standard deviation value along z axis"
-"tBodyGyro-mean()-X  time domain data of the body component from gyroscope for the mean value along x axis"
-"tBodyGyro-mean()-Y  time domain data of the body component from gyroscope for the mean value along y axix"
-"tBodyGyro-mean()-Z  time domain data of the body component from gyroscope for the mean value along z axis"
-"tBodyGyro-std()-X  time domain data of the body component from gyroscope for the standard deviation value along x axis"
-"tBodyGyro-std()-Y  time domain data of the body component from gyroscope for the standard deviation value along y axix"
-"tBodyGyro-std()-Z  time domain data of the body component from gyroscope for the standard deviation value along z axis"
-"tBodyGyroJerk-mean()-X  time domain data of the body component from gyroscope for the jerk signal mean value along x axis"
-"tBodyGyroJerk-mean()-Y  time domain data of the body component from gyroscope for the jerk signal mean value along y axix"
-"tBodyGyroJerk-mean()-Z  time domain data of the body component from gyroscope for the jerk signal mean value along z axis"
-"tBodyGyroJerk-std()-X  time domain data of the body component from gyroscope for the jerk signal standard deviation value along x axis"
-"tBodyGyroJerk-std()-Y  time domain data of the body component from gyroscope for the jerk signal standard deviation value along y axix"
-"tBodyGyroJerk-std()-Z  time domain data of the body component from gyroscope for the jerk signal standard deviation value along z axis"
-"tBodyAccMag-mean()  time domain data of the body component from accelerometer for the magnitude mean value"
-"tBodyAccMag-std()  time domain data of the body component from accelerometer for the magnitude standard deviation value"
-"tGravityAccMag-mean()  time domain data of the gravity component from accelerometer for the magnitude mean value"
-"tGravityAccMag-std()  time domain data of the gravity component from accelerometer for the magnitude standard deviation value"
-"tBodyAccJerkMag-mean()  time domain data of the body component from accelerometer for the jerk signal magnitude mean value"
-"tBodyAccJerkMag-std()  time domain data of the body component from accelerometer for the jerk signal magnitude standard deviation value"
-"tBodyGyroMag-mean()  time domain data of the body component from gyroscope for the magnitude mean value"
-"tBodyGyroMag-std()  time domain data of the body component from gyroscope for the magnitude standard deviation value"
-"tBodyGyroJerkMag-mean()  time domain data of the body component from gyroscope for the jerk signal magnitude mean value"
-"tBodyGyroJerkMag-std()  time domain data of the body component from gyroscope for the jerk signal magnitude standard deviation value"
-"fBodyAcc-mean()-X  frequency domain data of the body component from accelerometer for the mean value along x axis"
-"fBodyAcc-mean()-Y  frequency domain data of the body component from accelerometer for the mean value along y axix"
-"fBodyAcc-mean()-Z  frequency domain data of the body component from accelerometer for the mean value along z axis"
-"fBodyAcc-std()-X  frequency domain data of the body component from accelerometer for the standard deviation value along x axis"
-"fBodyAcc-std()-Y  frequency domain data of the body component from accelerometer for the standard deviation value along y axix"
-"fBodyAcc-std()-Z  frequency domain data of the body component from accelerometer for the standard deviation value along z axis"
-"fBodyAccJerk-mean()-X  frequency domain data of the body component from accelerometer for the jerk signal mean value along x axis"
-"fBodyAccJerk-mean()-Y  frequency domain data of the body component from accelerometer for the jerk signal mean value along y axix"
-"fBodyAccJerk-mean()-Z  frequency domain data of the body component from accelerometer for the jerk signal mean value along z axis"
-"fBodyAccJerk-std()-X  frequency domain data of the body component from accelerometer for the jerk signal standard deviation value along x axis"
-"fBodyAccJerk-std()-Y  frequency domain data of the body component from accelerometer for the jerk signal standard deviation value along y axix"
-"fBodyAccJerk-std()-Z  frequency domain data of the body component from accelerometer for the jerk signal standard deviation value along z axis"
-"fBodyGyro-mean()-X  frequency domain data of the body component from gyroscope for the mean value along x axis"
-"fBodyGyro-mean()-Y  frequency domain data of the body component from gyroscope for the mean value along y axix"
-"fBodyGyro-mean()-Z  frequency domain data of the body component from gyroscope for the mean value along z axis"
-"fBodyGyro-std()-X  frequency domain data of the body component from gyroscope for the standard deviation value along x axis"
-"fBodyGyro-std()-Y  frequency domain data of the body component from gyroscope for the standard deviation value along y axix"
-"fBodyGyro-std()-Z  frequency domain data of the body component from gyroscope for the standard deviation value along z axis"
-"fBodyAccMag-mean()  frequency domain data of the body component from accelerometer for the magnitude mean value"
-"fBodyAccMag-std()  frequency domain data of the body component from accelerometer for the magnitude standard deviation value"
-"fBodyAccJerkMag-mean()  frequency domain data of the body component from accelerometer for the jerk signal magnitude mean value"
-"fBodyAccJerkMag-std()  frequency domain data of the body component from accelerometer for the jerk signal magnitude standard deviation value"
-"fBodyGyroMag-mean()  frequency domain data of the body component from gyroscope for the magnitude mean value"
-"fBodyGyroMag-std()  frequency domain data of the body component from gyroscope for the magnitude standard deviation value"
-"fBodyGyroJerkMag-mean()  frequency domain data of the body component from gyroscope for the jerk signal magnitude mean value"
-"fBodyGyroJerkMag-std()  frequency domain data of the body component from gyroscope for the jerk signal magnitude standard deviation value"
-"activity  one of the 6 types of activities"
-"subject_id  subject's identification number"
+###### * BodyAcc-mean()-X  time domain data of the body component from accelerometer for the mean value along x axis
+###### * BodyAcc-mean()-Y  time domain data of the body component from accelerometer for the mean value along y axix
+###### * BodyAcc-mean()-Z  time domain data of the body component from accelerometer for the mean value along z axis
+###### * BodyAcc-std()-X  time domain data of the body component from accelerometer for the standard deviation value along x axis
+###### * BodyAcc-std()-Y  time domain data of the body component from accelerometer for the standard deviation value along y axix
+###### * BodyAcc-std()-Z  time domain data of the body component from accelerometer for the standard deviation value along z axis
+###### * GravityAcc-mean()-X  time domain data of the gravity component from accelerometer for the mean value along x axis
+###### * GravityAcc-mean()-Y  time domain data of the gravity component from accelerometer for the mean value along y axix
+###### * GravityAcc-mean()-Z  time domain data of the gravity component from accelerometer for the mean value along z axis
+###### * GravityAcc-std()-X  time domain data of the gravity component from accelerometer for the standard deviation value along x axis
+###### * GravityAcc-std()-Y  time domain data of the gravity component from accelerometer for the standard deviation value along y axix
+###### * GravityAcc-std()-Z  time domain data of the gravity component from accelerometer for the standard deviation value along z axis
+###### * BodyAccJerk-mean()-X  time domain data of the body component from accelerometer for the jerk signal mean value along x axis
+###### * BodyAccJerk-mean()-Y  time domain data of the body component from accelerometer for the jerk signal mean value along y axix
+###### * BodyAccJerk-mean()-Z  time domain data of the body component from accelerometer for the jerk signal mean value along z axis
+###### * BodyAccJerk-std()-X  time domain data of the body component from accelerometer for the jerk signal standard deviation value along x axis
+###### * BodyAccJerk-std()-Y  time domain data of the body component from accelerometer for the jerk signal standard deviation value along y axix
+###### * BodyAccJerk-std()-Z  time domain data of the body component from accelerometer for the jerk signal standard deviation value along z axis
+###### * BodyGyro-mean()-X  time domain data of the body component from gyroscope for the mean value along x axis
+###### * BodyGyro-mean()-Y  time domain data of the body component from gyroscope for the mean value along y axix
+###### * BodyGyro-mean()-Z  time domain data of the body component from gyroscope for the mean value along z axis
+###### * BodyGyro-std()-X  time domain data of the body component from gyroscope for the standard deviation value along x axis
+###### * BodyGyro-std()-Y  time domain data of the body component from gyroscope for the standard deviation value along y axix
+###### * BodyGyro-std()-Z  time domain data of the body component from gyroscope for the standard deviation value along z axis
+###### * BodyGyroJerk-mean()-X  time domain data of the body component from gyroscope for the jerk signal mean value along x axis
+###### * BodyGyroJerk-mean()-Y  time domain data of the body component from gyroscope for the jerk signal mean value along y axix
+###### * BodyGyroJerk-mean()-Z  time domain data of the body component from gyroscope for the jerk signal mean value along z axis
+###### * BodyGyroJerk-std()-X  time domain data of the body component from gyroscope for the jerk signal standard deviation value along x axis
+###### * BodyGyroJerk-std()-Y  time domain data of the body component from gyroscope for the jerk signal standard deviation value along y axix
+###### * BodyGyroJerk-std()-Z  time domain data of the body component from gyroscope for the jerk signal standard deviation value along z axis
+###### * BodyAccMag-mean()  time domain data of the body component from accelerometer for the magnitude mean value
+###### * BodyAccMag-std()  time domain data of the body component from accelerometer for the magnitude standard deviation value
+###### * GravityAccMag-mean()  time domain data of the gravity component from accelerometer for the magnitude mean value
+###### * GravityAccMag-std()  time domain data of the gravity component from accelerometer for the magnitude standard deviation value
+###### * BodyAccJerkMag-mean()  time domain data of the body component from accelerometer for the jerk signal magnitude mean value
+###### * BodyAccJerkMag-std()  time domain data of the body component from accelerometer for the jerk signal magnitude standard deviation value
+###### * BodyGyroMag-mean()  time domain data of the body component from gyroscope for the magnitude mean value
+###### * BodyGyroMag-std()  time domain data of the body component from gyroscope for the magnitude standard deviation value
+###### * BodyGyroJerkMag-mean()  time domain data of the body component from gyroscope for the jerk signal magnitude mean value
+###### * BodyGyroJerkMag-std()  time domain data of the body component from gyroscope for the jerk signal magnitude standard deviation value
+###### * BodyAcc-mean()-X  frequency domain data of the body component from accelerometer for the mean value along x axis
+###### * BodyAcc-mean()-Y  frequency domain data of the body component from accelerometer for the mean value along y axix
+###### * BodyAcc-mean()-Z  frequency domain data of the body component from accelerometer for the mean value along z axis
+###### * BodyAcc-std()-X  frequency domain data of the body component from accelerometer for the standard deviation value along x axis
+###### * BodyAcc-std()-Y  frequency domain data of the body component from accelerometer for the standard deviation value along y axix
+###### * BodyAcc-std()-Z  frequency domain data of the body component from accelerometer for the standard deviation value along z axis
+###### * BodyAccJerk-mean()-X  frequency domain data of the body component from accelerometer for the jerk signal mean value along x axis
+###### * BodyAccJerk-mean()-Y  frequency domain data of the body component from accelerometer for the jerk signal mean value along y axix
+###### * BodyAccJerk-mean()-Z  frequency domain data of the body component from accelerometer for the jerk signal mean value along z axis
+###### * BodyAccJerk-std()-X  frequency domain data of the body component from accelerometer for the jerk signal standard deviation value along x axis
+###### * BodyAccJerk-std()-Y  frequency domain data of the body component from accelerometer for the jerk signal standard deviation value along y axix
+###### * BodyAccJerk-std()-Z  frequency domain data of the body component from accelerometer for the jerk signal standard deviation value along z axis
+###### * BodyGyro-mean()-X  frequency domain data of the body component from gyroscope for the mean value along x axis
+###### * BodyGyro-mean()-Y  frequency domain data of the body component from gyroscope for the mean value along y axix
+###### * BodyGyro-mean()-Z  frequency domain data of the body component from gyroscope for the mean value along z axis
+###### * BodyGyro-std()-X  frequency domain data of the body component from gyroscope for the standard deviation value along x axis
+###### * BodyGyro-std()-Y  frequency domain data of the body component from gyroscope for the standard deviation value along y axix
+###### * BodyGyro-std()-Z  frequency domain data of the body component from gyroscope for the standard deviation value along z axis
+###### * BodyAccMag-mean()  frequency domain data of the body component from accelerometer for the magnitude mean value
+###### * BodyAccMag-std()  frequency domain data of the body component from accelerometer for the magnitude standard deviation value
+###### * BodyAccJerkMag-mean()  frequency domain data of the body component from accelerometer for the jerk signal magnitude mean value
+###### * BodyAccJerkMag-std()  frequency domain data of the body component from accelerometer for the jerk signal magnitude standard deviation value
+###### * BodyGyroMag-mean()  frequency domain data of the body component from gyroscope for the magnitude mean value
+###### * BodyGyroMag-std()  frequency domain data of the body component from gyroscope for the magnitude standard deviation value
+###### * BodyGyroJerkMag-mean()  frequency domain data of the body component from gyroscope for the jerk signal magnitude mean value
+###### * BodyGyroJerkMag-std()  frequency domain data of the body component from gyroscope for the jerk signal magnitude standard deviation value
+###### * activity  one of the 6 types of activities
+###### * subject_id  subject's identification number
