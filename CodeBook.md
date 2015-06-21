@@ -1,3 +1,7 @@
+###### * activity :
+ one of the 6 types of activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+###### * subject_id :
+ identification number for the 30 subjects of the experiment
 ###### * tBodyAcc-mean()-X : 
  time domain data of the body component from accelerometer for the mean value along x axis
 ###### * tBodyAcc-mean()-Y : 
@@ -130,7 +134,3 @@
  frequency domain data of the body component from gyroscope for the jerk signal magnitude mean value
 ###### * fBodyGyroJerkMag-std() : 
  frequency domain data of the body component from gyroscope for the jerk signal magnitude standard deviation value
-###### * activity :
- one of the 6 types of activities
-###### * subject_id :
- subject's identification number
