@@ -68,7 +68,7 @@ Creation of the tidy data set of the average of each variable for each activity 
           <ul>
           <li> 68 columns -> 33 features for mean() + 33 features for std() + "activity" + "subject_id" </li>
           <li> 180 rows   -> 30 subjects * 6 different activities </li>
-          This is the so-called "wide form" of the tidy dataset (as opposed to the "thin form" which would have just 4                 columns: activity, subject_id, measure, mean values) but is an equally acceptable format as stated by our Teaching              Asistant David Hood in this thread on the discussion forum: 
+          This is the so-called "wide form" of the tidy dataset (as opposed to the "thin form" which would have just 4                 columns: activity, subject_id, measure, mean values) but is an equally acceptable format as stated by our Teaching              Assistant David Hood in this thread on the discussion forum: 
           [Tidy data and the Assignment] (https://class.coursera.org/getdata-015/forum/thread?thread_id=27)
           </ul>
 <ol start="21">
