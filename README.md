@@ -5,7 +5,7 @@ Analysing script for the Human Activity Recognition Using Smartphones Dataset
 ### Version 1.0
 ### Thierry Daubos
 
-Here are the differents steps taken by the script to analyze the data:
+Here are the different steps taken by the script to analyze the data:
 
 ### PART 1
 <ol>
