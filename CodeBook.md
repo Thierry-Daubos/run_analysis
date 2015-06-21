@@ -1,4 +1,5 @@
-###### * BodyAcc-mean()-X  time domain data of the body component from accelerometer for the mean value along x axis
+###### * BodyAcc-mean()-X :
+time domain data of the body component from accelerometer for the mean value along x axis
 ###### * BodyAcc-mean()-Y  time domain data of the body component from accelerometer for the mean value along y axix
 ###### * BodyAcc-mean()-Z  time domain data of the body component from accelerometer for the mean value along z axis
 ###### * BodyAcc-std()-X  time domain data of the body component from accelerometer for the standard deviation value along x axis
